@@ -36,8 +36,8 @@
         <h1 class="title">The Wonders of Vegemite</h1>
       </div>
       <nav id="menu" class="mdl-layout__tab-bar mdl-color--primary-dark">
-        <a href="what-is-vegemite" data-page="what-is-vegemite" class="mdl-layout__tab is-active">What is Vegemite?</a>
-        <a href="recipes" data-page="recipes" class="mdl-layout__tab">Recipes</a>
+        <a id="what-is-vegemite" href="what-is-vegemite" data-page="what-is-vegemite" class="mdl-layout__tab is-active">What is Vegemite?</a>
+        <a id="recipes" href="recipes" data-page="recipes" class="mdl-layout__tab">Recipes</a>
         <a href="ingredients" data-page="ingredients" class="mdl-layout__tab">Ingredients</a>
       </nav>
     </header>
@@ -47,7 +47,7 @@
       <div data-page="what-is-vegemite">
         <section class="section--center mdl-grid mdl-grid--no-spacing is-active">
           <div class="mdl-cell mdl-cell--12-col">
-            <h2>What is Vegemite?</h2>
+            <h2 tabindex="-1" id="what-is-vegemite-header">What is Vegemite?</h2>
             Minim duis incididunt est cillum est ex occaecat consectetur. Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
 
             <h5 id="lorem1">Lorem ipsum dolor sit amet</h5>
@@ -108,7 +108,7 @@
       <div data-page="recipes">
         <section class="section--center mdl-grid mdl-grid--no-spacing">
           <div class="mdl-cell mdl-cell--12-col">
-            <h2>Recipes</h2>
+            <h2 id="recipes-header" tabindex="-1">Recipes</h2>
           </div>
           <div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp">
             <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">

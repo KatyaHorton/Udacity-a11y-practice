@@ -24,3 +24,24 @@ page('/:slug', function(context) {
 page({
   hashbang: true
 });
+
+
+//adds focus on the header of the chosen section, for those who use tab will be able to continue at the right tab order without the need of clicking through the parts of the page which might be before the topic they have chosen!
+
+
+let vegemite = document.getElementById('what-is-vegemite');
+let vegemiteHeader = document.getElementById('what-is-vegemite-header');
+
+vegemite.addEventListener('click', function() {
+	vegemiteHeader.focus();
+});
+
+
+
+let recipes = document.getElementById('recipes');
+let recipesHeader = document.getElementById('recipes-header');
+
+
+recipes.addEventListener('click', function() {
+	recipesHeader.focus();
+});
